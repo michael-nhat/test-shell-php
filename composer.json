@@ -12,6 +12,12 @@
         }
     ],
     "require": {
-        "slim/slim": "3.*"
+        "slim/slim": "3.*",
+        "mikehaertl/php-shellcommand": "^1.6"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.0"
+        }
     }
 }
