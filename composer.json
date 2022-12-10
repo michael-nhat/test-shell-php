@@ -1,0 +1,17 @@
+{
+    "name": "phpforshell/com",
+    "description": "using php project to do shell stuff, using slim",
+    "autoload": {
+        "psr-4": {
+            "Phpforshell\\Com\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nhat"
+        }
+    ],
+    "require": {
+        "slim/slim": "3.*"
+    }
+}
